@@ -83,9 +83,7 @@ footer {
 
 /* Media Queries: Mobile */
 @media screen and (max-width: 375px) {
-  .header { width:100%; }
+  .header { width:100%;
+  font-size: 100vh; }
   .attribution { width:100%; }
 }
-@media (min-width: 640px) { body {font-size:100vh; }}
-@media (min-width:960px) { body {font-size:100vh; }}
-@media (min-width:1100px) { body {font-size:100vh; }} 
